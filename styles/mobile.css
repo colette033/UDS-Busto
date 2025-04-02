@@ -138,4 +138,6 @@ header {
 .contacts p {
     color:rgb(175, 173, 173);
     font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
 }
