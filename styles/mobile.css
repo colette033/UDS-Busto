@@ -1,0 +1,141 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Garamond, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 3.5vw;
+}
+
+body {
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 3px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+.topbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; 
+    font-weight: bold;
+}
+
+.topbar.maintitle {
+    color: red;
+    font-size: 7vw;
+    font-weight: bolder;
+}
+
+.topbar img {
+    width: 120px;
+}
+
+.topbar a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.topbar a:hover {
+    color:red;
+    background: rgba(255, 255, 255, 0.2);
+}
+/*/ End top bar section /*/
+.pagetitle {
+    font-size: 45px;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: red;
+}
+
+.subtitle {
+    font-size: 20px;
+    color:beige;
+    padding-bottom: 20px;
+}
+
+
+.maincontent h3 {
+    font-size: 5vw;
+    color: red;
+}
+
+
+.card {
+    display: inline-block;
+    padding: 20px 20px;
+    background: rgb(39, 41, 43);
+    border-radius: 8px;
+    text-align: left;
+    width: 80%; 
+    margin-top: 2.5%;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.card h3,
+.card p,
+.card h1,
+.card ol,
+.card li {
+    color: white; /* Inherit color from .card to avoid repetition*/
+}
+
+.card h2 {
+    color: rgb(184, 178, 160);
+    font-size: 15px;
+}
+
+.card h3 {
+    font-size: 30px;
+}
+
+.card ol {
+    font-size: 15px;
+    padding-left: 5%;
+}
+
+.card.shrink {
+    max-width: 40%; /* Shrink the card */
+    padding: 5px 10px;
+    font-size: 0.8em; /* Reduce text size */
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    gap: 5px;
+    padding: 5px;
+    position: relative; 
+    margin-top: 50px; 
+}
+
+.contacts .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contacts h3 {
+    color: red;
+    margin: 0; /* Removes excessive margin */
+    font-size: 20px;
+}
+
+.contacts img {
+    width: 35px; 
+    height: 35px;
+}
+
+.contacts p {
+    color:rgb(175, 173, 173);
+    font-size: 12px;
+}

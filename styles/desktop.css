@@ -1,0 +1,129 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+body {
+    background-color: #1b1b1b;
+    margin: 0;
+    padding-left: 20%;
+    padding-top: 30px;
+}
+
+header {
+    margin: 0;
+    position: relative; 
+    text-align: left;
+}
+
+.topbar {
+    font-weight: bold;
+    text-align: left;
+}
+
+.topbar.maintitle {
+    color: red;
+    font-size: 40px;
+    padding-left: 0;
+}
+
+.topbar img {
+    max-width: 120px; /*/Expand but not too much/*/
+}
+
+.topbar div {
+    padding-left: 11%;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    transition: color 0.3s ease, background 0.3s ease;
+    padding: 10px;
+}
+
+.topbar a:hover {
+    color: red;
+}
+
+/* Page Title */
+.pagetitle {
+    font-size: 60px;
+    color: red;
+}
+
+.subtitle {
+    font-size: 22px;
+    color: beige;
+    padding-bottom: 20px;
+}
+
+/* Main Content */
+
+
+.maincontent h3 {
+    font-size: 30px;
+    color: red;
+}
+
+.card {
+    display: inline-block;
+    padding: 20px 20px;
+    background: rgb(39, 41, 43);
+    border-radius: 8px;
+    text-align: left;
+    max-width: 80%; 
+    padding-right: 2.3%;
+}
+
+.card h3,
+.card p,
+.card h1,
+.card ol,
+.card li {
+    color: white; /* Inherit color from .card to avoid repetition*/
+}
+
+.card h2 {
+    color: rgb(184, 178, 160); /* Specific color for h2 */
+    font-size: 15px;
+}
+
+.card h3 {
+    font-size: 30px;
+}
+
+.card ol {
+    font-size: 15px;
+    padding-left: 1%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Center content (on the left) */
+    gap: 5px;
+    padding: 5px;
+    position: relative; 
+    margin-top: 50px; 
+}
+
+.contacts h3 {
+    color: red;
+    margin: 0; /* Removes excessive margin */
+}
+
+.contacts img {
+    width: 30px;
+    height: 30px;
+}
+
+.contacts p {
+    color:rgb(175, 173, 173);
+    font-size: 15px;
+}
